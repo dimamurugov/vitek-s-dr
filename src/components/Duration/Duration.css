@@ -1,0 +1,46 @@
+.duration {
+  text-align: center;
+}
+
+.duration-text {
+  margin: 0;
+  padding-block: 12px;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-family: var(--cartoon);
+  font-weight: 400;
+  color: #473737;
+}
+
+.duration-countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding-block: 12px;
+}
+
+.duration-unit {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.duration-value {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: #ff6b6b;
+  font-family: var(--cartoon);
+}
+
+.duration-label {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  color: #473737;
+  font-family: var(--cartoon);
+}
+
+.duration-separator {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: #ff6b6b;
+  font-family: var(--cartoon);
+}

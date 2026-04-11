@@ -1,0 +1,19 @@
+.persona {
+  box-sizing: border-box;
+  width: min(92vw, 18rem);
+  height: min(38dvh, 14rem, calc(100svh - 10rem));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.persona-svg {
+  line-height: 0;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
