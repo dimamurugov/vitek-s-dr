@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react'
 import './Duration.css'
 
 export function Duration() {
-  const birthDate = new Date(1999, 3, 14) // 14 апреля 1999 (месяц 0-indexed)
-
   const getTimeUntilBirthday = () => {
     const today = new Date()
     const currentYear = today.getFullYear()
