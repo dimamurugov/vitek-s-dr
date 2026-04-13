@@ -1,5 +1,8 @@
 .info {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .info-text {
@@ -15,4 +18,19 @@
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 700;
   color: #ff6b6b;
+}
+
+.info-greeting {
+  margin: 0;
+  padding-block: 8px;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-family: var(--cartoon);
+  font-weight: 700;
+  color: #ff0000;
+  animation: blink 0.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
 }
