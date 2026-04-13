@@ -1,14 +1,26 @@
 .persona {
   box-sizing: border-box;
-  width: min(92vw, 18rem);
-  height: min(38dvh, 14rem, calc(100svh - 10rem));
+  width: min(94vw, 50rem);
+  height: min(58dvh, 26rem, calc(100svh - 8rem));
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  position: relative;
+}
+
+.persona-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 0;
 }
 
 .persona-svg {
+  position: relative;
+  z-index: 1;
   line-height: 0;
   display: block;
   width: auto;
