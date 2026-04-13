@@ -13,7 +13,7 @@ function App() {
     <main className="app-center">
       {isBirthday ? <Fireworks /> : <FallingPetals />}
       <Info isBirthday={isBirthday} />
-      <Persona isBirthday={isBirthday} />
+      <Persona />
       <Duration />
     </main>
   )
